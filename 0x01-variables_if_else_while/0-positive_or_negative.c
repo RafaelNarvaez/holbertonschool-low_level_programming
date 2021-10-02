@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- *main - function that prints positive or negative 
- *Return 0
+ *main - function that prints positive or negative
+ *Return: 0
  */
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%i is negative\n", n);
 	}
 
 	return (0);
