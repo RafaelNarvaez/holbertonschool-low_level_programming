@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *main - function that prints character 1 by 1
  * follow by a new line
