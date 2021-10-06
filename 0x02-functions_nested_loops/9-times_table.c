@@ -5,9 +5,9 @@
 
 void times_table(void)
 {
-	int idx, idy, mult;
+	int idx, mult, idy = 0;
 
-	for (idx = 0; idx < 0; idx++)
+	for (idx = 0; idx < 10; idx++)
 	{
 		_putchar('0');
 
