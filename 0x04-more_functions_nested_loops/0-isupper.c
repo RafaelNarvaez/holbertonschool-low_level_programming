@@ -3,8 +3,7 @@
 /**
  *_isupper - funtion that detects is uppercase character
  *@c: is the given varaiable (integer)
- *Return: 1 if is uppercase
- *Return: 0 if not
+ *Return: 0
  */
 
 int _isupper(int c)
