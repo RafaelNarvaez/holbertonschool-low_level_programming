@@ -8,15 +8,15 @@ void more_numbers(void)
 {
 	int idx, idy;
 
-	for (idx = 0; idx <= 9; idx++)
+	for (idy = 0; idy <= 9; idy++)
 	{
-		for (idy = 0; idy <= 14; idx++)
+		for (idx = 0; idx <= 14; idx++)
 		{
-			if (idy >= 10)
+			if (idx >= 10)
 			{
-				_putchar(idy / 10 + '0');
+				_putchar(idx / 10 + '0');
 			}
-			_putchar(idy % 10 + '0');
+			_putchar(idx % 10 + '0');
 		}
 		_putchar('\n');
 	}
