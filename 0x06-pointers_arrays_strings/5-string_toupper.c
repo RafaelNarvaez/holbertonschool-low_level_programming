@@ -8,10 +8,9 @@
 
 char *string_toupper(char *up)
 {
-	int idx = 0;
+	int idx;
 
-	while (up[idx] != '\0')
-		idx++;
+	for (idx = 0; up[idx] != '\0'; idx++)
 	{
 		if (up[idx] > 96 && up[idx] < 123)
 			up[idx] -= 32;
