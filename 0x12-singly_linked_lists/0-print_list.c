@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  *print_list - prints all the elements of a given list
@@ -11,7 +11,7 @@
 
 size_t print_list(const list_t *h)
 {
-	const list_t *temp = h;
+	const list_t *tmp = h;
 	int idx = 0;
 
 	while (tmp != NULL)
@@ -23,7 +23,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%i] %s\n", tmp->len, tmp->str);
 		tmp = tmp->next;
-		idx++
+		idx++;
 	}
 	return (idx);
 }
