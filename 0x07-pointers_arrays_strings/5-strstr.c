@@ -27,11 +27,10 @@ char *_strstr(char *haystack, char *needle)
 				break;
 			}
 		}
-		if (idx == dist)
+		if (idy == dist)
 		{
-			return (&haystack[idx]);
+			return (&(haystack[idx]));
 		}
-
 	}
 	return (NULL);
 }
