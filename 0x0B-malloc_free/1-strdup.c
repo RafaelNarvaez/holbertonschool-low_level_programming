@@ -18,7 +18,9 @@ char *_strdup(char *str)
 		idx++;
 
 	if (str == NULL)
+	{
 		return (NULL);
+	}
 
 	newptr = malloc(sizeof(char) * (idx + 1));
 
