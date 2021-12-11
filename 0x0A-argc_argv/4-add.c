@@ -3,10 +3,10 @@
 #include <ctype.h>
 
 /**
- *
- *
- *
- *
+ *main - program that adds + numbwers
+ *@argc: the argument counter
+ *@argv: the parameters passed or the array of strings
+ *Return: the sum of numbers (O/SUCCESS) OR (1/ERROR)
  */
 
 int main(int argc, char *argv[])
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	
+
 	for (idx = 1; idx < argc; idx++)
 	{
 		for (idy = 0; argv[idx][idy] != '\0'; idy++)
