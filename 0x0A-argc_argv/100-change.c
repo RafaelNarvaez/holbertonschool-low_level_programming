@@ -2,17 +2,16 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ *main - prints the change of cetain amount of money
+ *@argc: the argument counter
+ *@argv: array (arguments)
+ *Return: (0/SUCCESS) and/or (1/Error)
  */
 
 int main(int argc, char *argv[])
 {
+	int coins, change = 0, idx = 0;
 	int cents[] = {25, 10, 5, 2, 1};
-	int coins;
-	int change = 0, idx = 0;
 
 	if (argc != 2)
 	{
