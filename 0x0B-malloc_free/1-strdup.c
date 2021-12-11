@@ -13,9 +13,12 @@ char *_strdup(char *str)
 	char *newptr;
 	int idx = 0, idy = 0;
 
+	if (str == NULL)
+		return (NULL);
+
 	newptr = malloc(sizeof(char) * (idx + 1));
 
-	if (newptr == NULL || str == NULL)
+	if (newptr == NULL)
 	{
 		return (NULL);
 	}
