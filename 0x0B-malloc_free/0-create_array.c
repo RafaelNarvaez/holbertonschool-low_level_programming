@@ -12,11 +12,16 @@ char *create_array(unsigned int size, char c)
 	unsigned int idx;
 	char *pointer;
 
-	pointer = malloc(sizeof(char) * size);
-
-	if (size == 0 && pointer == NULL)
+	if (size == 0)
 	{
 		return (NULL);
+	}
+
+	pointer = malloc(sizeof(char) * size);
+
+	if (pointer == NULL)
+	{
+	return (NULL);
 	}
 
 	idx = 0;
