@@ -26,15 +26,15 @@ char *_strdup(char *str)
 
 	newptr = malloc(sizeof(char) * (idx + 1));
 
+	if (newptr == NULL)
+	{
+		return (NULL);
+	}
+
 	for (idy = 0; idy[str] != '\0'; idy++)
 	{
 		newptr[idy] = str[idy];
 	}
 	newptr[idy] = '\0';
 	return (newptr);
-
-	if (newptr == NULL)
-	{
-		return (NULL);
-	}
 }
