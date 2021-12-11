@@ -19,8 +19,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
-	for (idx = 0; idx[str] != '\0'; idx++);
+	for (idx = 0; idx[str] != '\0'; idx++)
+	;
 
 	for (idy = 0; idy[str] != '\0'; idy++)
 	{
