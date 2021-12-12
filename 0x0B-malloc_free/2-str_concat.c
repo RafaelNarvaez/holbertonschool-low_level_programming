@@ -12,9 +12,12 @@ char *str_concat(char *s1, char *s2)
 	char *newConcStr;
 	int idx, idy = 2, idxy = 0;
 
-	if ((s1 == NULL) || (s2 == NULL))
+	if (s1 == NULL)
 	{
 		s1 = "";
+	}
+	if (s2 == NULL)
+	{
 		s2 = "";
 	}
 	for (idx = 0; s1[idx] != '\0'; idx++)
