@@ -2,10 +2,7 @@
 
 /**
  *print_list - prints all the elements of a given list
- *@h: of the following types...
- *char *str
- *unsigned int len
- *struct list_s *next
+ *@h: singly linked list
  *Return: the amount of nodes
  */
 
