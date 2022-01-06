@@ -1,7 +1,7 @@
 #include "lists.h"
 
-/*
- *add_dnodeint - adds a new node at the beginning of a 2dclinked list
+/**
+ *add_dnodeint - adds a new node at the beginning of doublylinked list
  *@head: head pointer
  *@n: data
  *Return: address of new node and/or NULL if fails
@@ -12,11 +12,11 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	dlistint_t *new;
 
 	if (head == NULL)
-		return NULL;
+		return (NULL);
 
 	new = malloc(sizeof(struct dlistint_s));
 	if (!new)
-		return NULL;
+		return (NULL);
 	new->n = n;
 
 	if (*head == NULL)
