@@ -1,14 +1,5 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
-#include <stdio.h>
-#include <stdlib.h>
-
-int add(int a, int b)
-int sub(int a, int b)
-int mul(int a, int b)
-int div(int a, int b)
-int mod(int a, int b)
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -29,5 +20,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
 #endif /* __MAIN_H__ */
