@@ -11,7 +11,6 @@ def island_perimeter(grid):
 
     if grid is None:
         return None
-
     h = 0
     w = 0
     for row in grid:
