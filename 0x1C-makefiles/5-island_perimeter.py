@@ -20,7 +20,7 @@ def island_perimeter(grid):
                 h = h + 1
         except ValueError:
             pass
-        for row in grid:
-            w = max(row.count(1), w)
+    for row in grid:
+        w = max(row.count(1), w)
 
-            return (h * 2) + (w * 2)
+    return (h * 2) + (w * 2)
